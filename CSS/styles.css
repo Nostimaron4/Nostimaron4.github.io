@@ -91,6 +91,8 @@ html {
 }
 
 .nav__text {
+    padding: 0 0px; /* separa 20px de izquierda y derecha */
+    gap: 5rem;
   font-family: 'Times New Roman', sans-serif;
   font-style:italic;
   font-size: 1.5rem;
