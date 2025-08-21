@@ -331,6 +331,24 @@ body::before {
 
 /*media queries*/
 
+@media (max-width: 1920px) {
+  .orbit-container {
+    width: 60vw;
+    height: 60vw;
+  }
+  .orbit-img {
+    width: 46%;
+  }
+
+  /* Reducimos offsets para que no rompan el viewport */
+  .orbit-img:nth-child(1) { left: 70%; top: -6%;}
+.orbit-img:nth-child(2) { left: 105%; }
+  .orbit-img:nth-child(3) { left: 80%; }
+  .orbit-img:nth-child(4) { left:  -10%; }
+  .orbit-img:nth-child(5) { left:  -50%; }
+  .orbit-img:nth-child(6) { left:  -25%; top: -6%;}
+}
+
 @media (max-width: 1280px) {
   .orbit-container {
     width: 60vw;
